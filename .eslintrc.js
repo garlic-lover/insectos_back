@@ -1,0 +1,48 @@
+module.exports = {
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: ["airbnb-base"],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module",
+  },
+  rules: {
+    "security/detect-object-injection": 0,
+    "no-console": 0,
+    "no-useless-return": 0,
+    "global-require": 0,
+    "func-names": 0,
+    "no-shadow": 0,
+    "no-use-before-define": 0,
+    "no-param-reassign": 0,
+    "new-cap": 0,
+    "no-undef": 0,
+    "no-underscore-dangle": 0,
+    "no-prototype-builtins": 0,
+    "no-nested-ternary": 0,
+    "no-plusplus": 0,
+    "no-extra-boolean-cast": 0,
+    "spaced-comment": 0,
+    "no-restricted-properties": 0,
+    "no-restricted-syntax": 0,
+    "no-confusing-arrow": 0,
+    "no-case-declarations": 0,
+    "linebreak-style": 0,
+    "import/prefer-default-export": 0,
+    "import/no-named-as-default": 0,
+    "no-return-await": 0,
+    "consistent-return": 0,
+    "default-case": 0,
+  },
+  settings: {
+    "import/resolver": {
+      "babel-module": {},
+    },
+  },
+};
