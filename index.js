@@ -6,11 +6,10 @@ import schemas from "./schemas";
 import resolvers from "./resolvers";
 import models from "./models";
 
-const userGet = require("./functions/User/userGet");
-
 mongoose.connect(process.env.ATLAS || "mongodb://localhost/insectos-back", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useCreateIndex: true,
 });
 
 const server = new ApolloServer({
@@ -21,10 +20,10 @@ const server = new ApolloServer({
       // check connection for metadata
       return connection.context;
     } else {
-      let token = req.headers.authorization || "";
+      /*  let token = req.headers.authorization || "";
       token = token.replace("Bearer ", "");
-      const user = await userGet(token);
-      return { models, user };
+      const user = await userGet(token); */
+      return { models };
     }
   },
 });
