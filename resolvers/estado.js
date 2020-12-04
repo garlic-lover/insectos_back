@@ -6,7 +6,6 @@ export default {
       );
       return list[0];
     },
-    estados: async (parent, args, { models }) =>
-      await models.Estado.find().populate("insects"),
+    estados: async (parent, args, { models }) => await models.Estado.find(),
   },
 };

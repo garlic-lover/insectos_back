@@ -3,11 +3,11 @@ import mongoose from "mongoose";
 const Insect = mongoose.model("Insect", {
   phylum: {
     type: String,
-    default: "",
+    default: "Arthropoda",
   },
   class: {
     type: String,
-    default: "",
+    default: "Insecta",
   },
   order: {
     type: String,

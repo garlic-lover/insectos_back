@@ -6,10 +6,24 @@ export default gql`
     insects: [Insect]
   }
   extend type Mutation {
-    insectAdd(commonName: String, estado: String): Boolean
+    insectAdd(insect: InsectInput): Boolean
   }
   type Insect {
     _id: String
+    order: String
+    family: String
+    specie: String
+    genus: String
     commonNames: [String]
+    estados: [Estado]
+  }
+  input InsectInput {
+    _id: String
+    order: String
+    family: String
+    specie: String
+    genus: String
+    commonNames: [String]
+    estados: [String]
   }
 `;
