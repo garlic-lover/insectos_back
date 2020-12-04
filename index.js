@@ -6,6 +6,9 @@ import schemas from "./schemas";
 import resolvers from "./resolvers";
 import models from "./models";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 mongoose.connect(process.env.ATLAS || "mongodb://localhost/insectos-back", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
