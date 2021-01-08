@@ -10,8 +10,14 @@ const Insect = mongoose.model("Insect", {
     default: "Insecta",
   },
   order: {
-    type: String,
-    default: "",
+    main: {
+      type: String,
+      default: "",
+    },
+    sub: {
+      type: String,
+      default: "",
+    },
   },
   family: {
     type: String,
@@ -30,6 +36,19 @@ const Insect = mongoose.model("Insect", {
     default: [],
   },
   estados: [{ type: mongoose.Schema.Types.ObjectId, ref: "Estado" }],
+  eatableStates: [{ type: String }],
+  isSold: { type: Boolean },
+  isAutoConsumed: { type: Boolean },
+  isComestible: { type: Boolean },
+  isMedicinal: { type: Boolean },
+  isTradicional: { type: Boolean },
+  notes: { type: String },
+  references: [
+    {
+      _id: { type: mongoose.Schema.Types.ObjectId, ref: "Article" },
+      clave: { type: String },
+    },
+  ],
 });
 
 export default Insect;

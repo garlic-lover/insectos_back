@@ -1,0 +1,27 @@
+class;order;family;specie;commonNames;eatableStates;estados;isSold;isAutoConsumed;notes;references;isComestible;isMedicinal;isTradicional
+Insecta;Hymenoptera;Formicidae;Liometum apiculatum;Hormiga escamolera, escamoles;"Larvas, pupas ";"Puebla, México, Querétaro, Hidalgo, Tlaxcala, Nuevo León, Guerrero, Distrito Federal ";TRUE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;"Coleoptera ";Cerambycidae;"Trichoderes pini ";Chiza, chanulcate, gusano de los pinos;Larvas, pupas;"México, Hidalgo, Durango, Nuevo León, Chiapas, Veracruz ";TRUE;TRUE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Orthoptera;Acrididae;Sphenarium histrio;Chapulines;Nifas, adultos;Puebla, Distrito Federal, México, Oaxaca, Hidalgo, Chiapas, Tlaxcala;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Orthoptera;Acrididae;Melanoplus femurrubrum;Chapulines;Nifas, adultos;Puebla, México, Oaxaca, Veracruz;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Hemiptera (Heteroptera);Ligaeidae;Neortholomus sp.;Mosquito;Adultos;Puebla;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Hemiptera (Heteroptera);Pentatomidae;Euschistus sp.;Jumiles;Nifas, adultos;"Puebla, Chiapas, Chihuahua, Durango, Guerrero, Hidalgo, Jalisco, México, Morelos, Nayarit, Oaxaca, Veracruz, Distrito Federal ";TRUE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Hemiptera (Auchenorryncha);Membracidae;Umbonia reclinata;Toritos;Nifas, adultos;Puebla, Oaxaca, Veracruz;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Hemiptera (Auchenorryncha);Cercopidae;Aenaeolamia postica;Mosca de la hierba;Ninfas;Puebla;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Psocoptera;Psocidae;"Metyphorus barretti ";Texca;Adultos;Puebla;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;"Coleoptera ";Melolonthidae;"Phyllophaga sp. ";Morciegas;Larvas, pupas;Puebla, Hidalgo, México, Michoacán;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;"Coleoptera ";Curcurlionidae;Scyphophorus acupunctatus;Tepocho, Gusanos del Maguey, Mone, Xacanal, Botijas del Maguey, Gusanos Nixtamaleros;Larvas;Puebla, Tlaxcala, México, Veracruz, Oaxaca, Michoacán, Guanajuato, Hidalgo, Puebla, Coahuila, Distrito Federal, Querétaro, Zacatecas, Yucatán;FALSE;TRUE;;RAMOS2007, ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Lepidoptera;Cossidae;Comadia redtembacheri;Chinicuil, chilocuil, techol, tecoles;Larvas;Puebla, Tlaxcala, México, Veracruz, Oaxaca, Michoacán, Guanajuato, Hidalgo, Puebla, Coahuila, Distrito Federal, Querétaro, Zacatecas;TRUE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Lepidoptera;Megathymidae;Aegiale hesperiaris;Gusano blanco de maguey, gusano mantequilla;Larvas;Puebla, Tlaxcala, México, Veracruz, Oaxaca, Michoacán, Guanajuato, Hidalgo, Puebla, Coahuila, Distrito Federal, Querétaro, Zacatecas;TRUE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Lepidoptera;Pyralidae;Laniifera cyclades;Gusano del nopal;Larvas;Tlaxcala, Distrito Federal, México, Puebla, Hidalgo;TRUE;FALSE;Considerada plaga;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Hymenoptera;Formicidae;Myrmecosistus melliger;Hormigas de la pancita;Adultos de reserva;México, Puebla, Hidalgo, Oaxaca, San Luis Potosí;FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Hymenoptera;Vespidae;"Polybia sp. ";Avispa negra;Larvas, pupas;"Puebla, México, Hidalgo, Oaxaca, Chiapas, Veracruz, San Luis Potosí, Nayarit, Michoacán, Tlaxcala ";FALSE;FALSE;;RAMOS2007;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Cerambycidae;Arhopalus rusticus;Gusano del palo, Gusano del ocote;Larvas;México, Hidalgo;FALSE;TRUE;;ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Cerambycidae;Callipogon barbatum;Tumbas, Cuatolin, Ciervo volante, Gusano de los palos, Chipacacue, Rompe palos;Larvas, pupas;Chiapas, Puebla, México, Veracruz, Oaxaca;FALSE;FALSE;;ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Cerambycidae;Derobrachus procerus;Sulthona, Virgencita, Pipitillas, Gusano de palo;;Chiapas,  México;FALSE;TRUE;;ZARAGOZA2016;FALSE;FALSE;FALSE
+Insecta;Coleoptera;Cerambycidae;Eburia stigmatica;Texcan, Cuahutemolin;Larvas, pupas;Chiapas;FALSE;TRUE;;ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Cerambycidae;Stenodontes molarium;Gusano de los palos, Ticoco del encino podrido;;Hidalgo, México, Oaxaca;FALSE;TRUE;;ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Curculionidae;Cactophagus spinolae;Picudo del nopal, Picudos, Gusano del nopal;Larvas;Hidalgo, Chiapas, México;FALSE;TRUE;;ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Dytiscidae;Cybister flavocinctus;Cucaracha de agua;;México;FALSE;TRUE;;ZARAGOZA2016;TRUE;FALSE;FALSE
+Insecta;Coleoptera;Gyrinidae;Gyrinus obtusus;Quichi;;Veracruz, México;TRUE;FALSE;Eran comercializados como alimento para aves.;ZARAGOZA2016;FALSE;FALSE;FALSE
+Insecta;Coleoptera;Hydrophilidae;Berosus hoplites;Atetépitz, Achichimalli;;México;FALSE;TRUE;;ZARAGOZA2016;TRUE;FALSE;TRUE
+Insecta;Coleoptera;;Tropisternus mexicanus;Coatécpatl, Xopanxacalli, Atetépitz, Achichimalli;;México;FALSE;TRUE;;ZARAGOZA2016;FALSE;FALSE;TRUE

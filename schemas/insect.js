@@ -10,7 +10,7 @@ export default gql`
   }
   type Insect {
     _id: String
-    order: String
+    order: Order
     family: String
     specie: String
     genus: String
@@ -19,11 +19,19 @@ export default gql`
   }
   input InsectInput {
     _id: String
-    order: String
+    order: OrderInput
     family: String
     specie: String
     genus: String
     commonNames: [String]
     estados: [String]
+  }
+  type Order {
+    main: String
+    sub: String
+  }
+  input OrderInput {
+    main: String
+    sub: String
   }
 `;

@@ -9,6 +9,15 @@ import models from "./models";
 import dotenv from "dotenv";
 dotenv.config();
 
+//import importArticles from "./functions/general/importArticles";
+//  importArticles(models);
+
+// import importInsects from "./functions/general/importInsects";
+// importInsects(models);
+
+// import estadosGen from "./functions/general/estadosGen";
+// estadosGen();
+
 mongoose.connect(process.env.ATLAS || "mongodb://localhost/insectos-back", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
