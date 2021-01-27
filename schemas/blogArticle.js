@@ -12,6 +12,8 @@ export default gql`
     _id: String
     title: String
     shortDescription: String
+    authorName: String
+    lang: String
     data: EditorData
   }
   type EditorData {
@@ -33,6 +35,8 @@ export default gql`
     _id: String
     title: String
     shortDescription: String
+    authorName: String
+    lang: String
     data: EditorDataInput
   }
   input EditorDataInput {

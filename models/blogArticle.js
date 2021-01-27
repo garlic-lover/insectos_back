@@ -10,6 +10,14 @@ const BlogArticleSchema = new Schema({
     type: String,
     default: "",
   },
+  authorName: {
+    type: String,
+    default: "",
+  },
+  lang: {
+    type: String,
+    default: "",
+  },
   data: {
     blocks: [
       {
