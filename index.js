@@ -16,7 +16,7 @@ dotenv.config();
 // importInsects(models);
 
 // import estadosGen from "./functions/general/estadosGen";
-// estadosGen();
+//estadosGen();
 
 mongoose.connect(process.env.ATLAS || "mongodb://localhost/insectos-back", {
   useNewUrlParser: true,
