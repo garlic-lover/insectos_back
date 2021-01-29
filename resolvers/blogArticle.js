@@ -1,8 +1,8 @@
 export default {
   Query: {
     blogArticle: async (parent, { name }, { models }) => {
-      let theArticle = await models.Estado.findOne({
-        state_code: name,
+      let theArticle = await models.BlogArticle.findOne({
+        title: name,
       });
       return theArticle;
     },
