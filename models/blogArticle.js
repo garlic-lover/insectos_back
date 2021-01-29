@@ -26,8 +26,8 @@ const BlogArticleSchema = new Schema({
           default: "",
         },
         data: {
-          type: Array,
-          default: [],
+          type: Object,
+          default: {},
         },
       },
     ],

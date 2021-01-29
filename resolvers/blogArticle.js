@@ -4,6 +4,9 @@ export default {
       let theArticle = await models.BlogArticle.findOne({
         title: name,
       });
+      for (const block of theArticle.data.blocks) {
+        console.log(block.data);
+      }
       return theArticle;
     },
     blogArticles: async (parent, args, { models }) =>
