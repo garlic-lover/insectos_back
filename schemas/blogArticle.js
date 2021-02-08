@@ -30,6 +30,14 @@ export default gql`
     text: String
     items: [String]
     style: String
+    file: FileData
+    caption: String
+    withBorder: Boolean
+    withBackground: Boolean
+    stretched: Boolean
+  }
+  type FileData {
+    url: String
   }
   input BlogArticleInput {
     _id: String
@@ -53,5 +61,13 @@ export default gql`
     text: String
     items: [String]
     style: String
+    file: FileDataInput
+    caption: String
+    withBorder: Boolean
+    withBackground: Boolean
+    stretched: Boolean
+  }
+  input FileDataInput {
+    url: String
   }
 `;
