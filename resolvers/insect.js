@@ -1,8 +1,9 @@
 export default {
   Query: {
-    insect: async (parent, { _id }, { models }) =>
-      await models.Insect.findById(_id),
-    insects: async (parent, args, { models }) => await models.Insect.find(),
+    insect: async (parent, { specie }, { models }) =>
+      await models.Insect.findOne({ specie: specie }),
+    insects: async (parent, args, { models }) =>
+      await models.Insect.find().populate("estados"),
   },
   Mutation: {
     insectAdd: async (parent, { insect }, { models }) => {

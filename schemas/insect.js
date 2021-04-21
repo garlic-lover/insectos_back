@@ -2,7 +2,7 @@ import { gql } from "apollo-server-express";
 
 export default gql`
   extend type Query {
-    insect(_id: String): Insect
+    insect(specie: String): Insect
     insects: [Insect]
   }
   extend type Mutation {
@@ -16,6 +16,14 @@ export default gql`
     genus: String
     commonNames: [String]
     estados: [Estado]
+    references: [Reference]
+    eatableStates: [String]
+    isSold: Boolean
+    isAutoConsummed: Boolean
+    notes: String
+    isComestible: Boolean
+    isMedicinal: Boolean
+    isTradicional: Boolean
   }
   input InsectInput {
     _id: String
@@ -25,6 +33,13 @@ export default gql`
     genus: String
     commonNames: [String]
     estados: [String]
+    eatableStates: [String]
+    isSold: Boolean
+    isAutoConsummed: Boolean
+    notes: String
+    isComestible: Boolean
+    isMedicinal: Boolean
+    isTradicional: Boolean
   }
   type Order {
     main: String
@@ -33,5 +48,9 @@ export default gql`
   input OrderInput {
     main: String
     sub: String
+  }
+  type Reference {
+    clave: String
+    _id: String
   }
 `;
