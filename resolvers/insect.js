@@ -1,7 +1,10 @@
 export default {
   Query: {
-    insect: async (parent, { specie }, { models }) =>
-      await models.Insect.findOne({ specie: specie }),
+    insect: async (parent, { specie }, { models }) => {
+      return await models.Insect.findOne({ specie: specie }).populate(
+        "estados"
+      );
+    },
     insects: async (parent, args, { models }) =>
       await models.Insect.find().populate("estados"),
   },
