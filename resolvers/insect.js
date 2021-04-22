@@ -11,7 +11,7 @@ export default {
         toFilter["order.main"] = filter.order;
       }
       if (filter.estado !== "-") {
-        toFilter.estado = filter.estado;
+        toFilter.estados = filter.estado;
       }
       return await models.Insect.find(toFilter)
         /*  .skip(5)
