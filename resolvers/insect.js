@@ -5,8 +5,19 @@ export default {
         "estados"
       );
     },
-    insects: async (parent, args, { models }) =>
-      await models.Insect.find().populate("estados"),
+    insects: async (parent, { filter }, { models }) => {
+      let toFilter = {};
+      if (filter.order !== "-") {
+        toFilter["order.main"] = filter.order;
+      }
+      if (filter.estado !== "-") {
+        toFilter.estado = filter.estado;
+      }
+      return await models.Insect.find(toFilter)
+        /*  .skip(5)
+        .limit(10) */
+        .populate("estados");
+    },
   },
   Mutation: {
     insectAdd: async (parent, { insect }, { models }) => {

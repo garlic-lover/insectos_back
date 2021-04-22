@@ -3,7 +3,7 @@ import { gql } from "apollo-server-express";
 export default gql`
   extend type Query {
     insect(specie: String): Insect
-    insects: [Insect]
+    insects(filter: FilterInput): [Insect]
   }
   extend type Mutation {
     insectAdd(insect: InsectInput): Boolean
@@ -52,5 +52,10 @@ export default gql`
   type Reference {
     clave: String
     _id: String
+  }
+  input FilterInput {
+    order: String
+    estado: String
+    search: String
   }
 `;
