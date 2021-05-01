@@ -51,7 +51,7 @@ export default gql`
   }
   type Reference {
     clave: String
-    _id: String
+    _id: Article
   }
   input FilterInput {
     order: String

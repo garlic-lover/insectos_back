@@ -1,9 +1,9 @@
 export default {
   Query: {
     insect: async (parent, { specie }, { models }) => {
-      return await models.Insect.findOne({ specie: specie }).populate(
-        "estados"
-      );
+      return await models.Insect.findOne({ specie: specie })
+        .populate("estados")
+        .populate("references._id");
     },
     insects: async (parent, { filter }, { models }) => {
       let toFilter = {};

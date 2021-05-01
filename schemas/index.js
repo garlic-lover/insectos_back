@@ -4,6 +4,7 @@ import userSchema from "./user";
 import estadoSchema from "./estado";
 import insectSchema from "./insect";
 import blogArticleSchema from "./blogArticle";
+import articleSchema from "./article";
 
 const linkSchema = gql`
   scalar Date
@@ -29,4 +30,5 @@ export default [
   estadoSchema,
   insectSchema,
   blogArticleSchema,
+  articleSchema,
 ];
