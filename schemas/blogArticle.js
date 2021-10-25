@@ -24,6 +24,7 @@ export default gql`
   type Block {
     type: String
     data: BlockData
+    id: String
   }
   type BlockData {
     level: Int
@@ -55,6 +56,7 @@ export default gql`
   input BlockInput {
     type: String
     data: BlockDataInput
+    id: String
   }
   input BlockDataInput {
     level: Int

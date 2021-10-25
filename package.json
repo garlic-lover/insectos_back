@@ -21,7 +21,7 @@
     "csv-parser": "^3.0.0",
     "dotenv": "^8.2.0",
     "graphql": "^15.3.0",
-    "mongoose": "^5.9.25",
+    "mongoose": "^6.0.12",
     "sha256": "^0.2.0",
     "stripe": "^8.78.0",
     "uid2": "0.0.3"
@@ -30,7 +30,7 @@
     "@babel/core": "^7.11.0",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.0",
-    "eslint": "^7.6.0",
+    "eslint": "^8.1.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-import-resolver-babel-module": "^5.1.2",
     "eslint-plugin-import": "^2.22.0"

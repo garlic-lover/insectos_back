@@ -21,7 +21,6 @@ dotenv.config();
 mongoose.connect(process.env.ATLAS || "mongodb://localhost/insectos-back", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: true,
 });
 
 const server = new ApolloServer({
